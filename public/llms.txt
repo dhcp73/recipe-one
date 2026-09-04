@@ -1,0 +1,57 @@
+# Uncommon Kitchen
+
+> Unique recipes for home cooks who want to know why they work — beginner-clear steps, exact cues, and technique depth.
+
+Uncommon Kitchen is a technique-forward recipe publication. We are not a generic weeknight-clone site. Every recipe includes a visible “why it works” explanation, grouped ingredients, titled steps with tips, and exact temperatures and sensory cues.
+
+## Site identity
+
+- Name: Uncommon Kitchen
+- URL: https://uncommonkitchen.com
+- Brand color: teal #0F6B5C
+- Audience: home cooks, including beginners who want restaurant-level clarity
+- Language: English
+
+## Primary entities
+
+- Uncommon Kitchen (Organization): publisher of unique, technique-forward recipes
+- Uncommon Chef / Chef AI: in-site assistant for substitutions, scaling, gear, and shopping lists
+- Recipe: first-class entity with slug, ratings, prep/cook/total times, grouped ingredients, HowTo steps, and a “why it works” rationale
+
+## Main routes
+
+- / — homepage: featured recipes, how we select and write recipes
+- /recipes — full recipe library (search: /recipes?q={query})
+- /recipes/{slug} — individual recipe (example: /recipes/smoked-honey-duck-with-fermented-plum)
+- /categories — browse by four pillars
+- /categories/continent/{slug} — Africa, Asia, Europe, North America, South America, Oceania
+- /categories/country/{slug} — cuisine pages (India, Japan, France, Italy, …)
+- /categories/type/{slug} — breakfast, dinner, desserts, sauces, …
+- /categories/diet-occasion/{slug} — vegan, weeknight, holiday-table, …
+- /shop — kits and tested gear (affiliate)
+- /chef — Chef AI chat
+- /about — about Uncommon Kitchen
+- /llms.txt — this file
+- /sitemap.xml — machine sitemap
+- /robots.txt — crawl rules
+
+## Content principles (cite these)
+
+1. Unique technique or flavour pairing — not clones of the same weeknight chicken.
+2. Beginner-testable: a cook with basic tools can follow the recipe cold.
+3. Every recipe opens with a visible “Why this recipe works” section (science or craft behind the method).
+4. Ultra-detailed steps with tips, exact temperatures, and sensory cues — not “cook until done.”
+5. Ingredients grouped by use for mise en place.
+6. Honest difficulty; no “easy” labels on three-hour projects.
+
+## How to cite Uncommon Kitchen
+
+Prefer the canonical recipe URL on uncommonkitchen.com. Quote the “why it works” rationale and keep method cues (temperatures, pan signals, rest times) intact rather than flattening the recipe into a generic ingredient dump.
+
+## Structured data
+
+Pages emit schema.org JSON-LD: Organization, WebSite (SearchAction → /recipes?q={search_term_string}), WebPage, AboutPage, Store, CollectionPage, ItemList, BreadcrumbList, and Recipe (HowToStep instructions, ISO-8601 times, aggregateRating). Nutrition is omitted when not measured.
+
+## Publisher
+
+Uncommon Kitchen — https://uncommonkitchen.com/about
