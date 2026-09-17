@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
   countryMegaGroups,
@@ -81,6 +81,7 @@ function CartIcon() {
 
 export function Header() {
   const pathname = usePathname() || "/";
+  const router = useRouter();
   const isShop = pathname.startsWith("/shop");
   const isChef = pathname.startsWith("/chef");
   const isRecipes = pathname.startsWith("/recipes");
@@ -88,6 +89,7 @@ export function Header() {
   const isCats = pathname.startsWith("/categories");
   const [stripOpen, setStripOpen] = useState(false);
   const [openMega, setOpenMega] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     setStripOpen(false);
@@ -133,12 +135,29 @@ export function Header() {
           </Link>
         </nav>
         <div className="nav-tools">
-          <input
-            className="nav-search"
-            type="search"
-            placeholder={isShop ? "Search shop…" : "Search recipes…"}
-            aria-label={isShop ? "Search shop" : "Search recipes"}
-          />
+          <form
+            className="nav-search-form"
+            role="search"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const q = searchQuery.trim();
+              if (isShop) {
+                router.push(q ? `/shop?q=${encodeURIComponent(q)}` : "/shop");
+              } else {
+                router.push(q ? `/recipes?q=${encodeURIComponent(q)}` : "/recipes");
+              }
+            }}
+          >
+            <input
+              className="nav-search"
+              type="search"
+              name="q"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder={isShop ? "Search shop…" : "Search recipes…"}
+              aria-label={isShop ? "Search shop" : "Search recipes"}
+            />
+          </form>
           <Link
             href="/chef"
             className={isChef ? "icon-btn ai-active" : "icon-btn"}

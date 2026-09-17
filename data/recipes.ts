@@ -1,4 +1,5 @@
 import { festiveRecipes } from "./festive-recipes";
+import { catalogRecipes } from "./recipes-catalog";
 
 export type Ingredient = {
   id: string;
@@ -77,7 +78,18 @@ export function formatClock(mins: number): string {
   return `${h} hr ${m} mins`;
 }
 
-export const recipes: Recipe[] = [
+function dedupeBySlug(list: Recipe[]): Recipe[] {
+  const seen = new Set<string>();
+  const out: Recipe[] = [];
+  for (const r of list) {
+    if (seen.has(r.slug)) continue;
+    seen.add(r.slug);
+    out.push(r);
+  }
+  return out;
+}
+
+const recipesRaw: Recipe[] = [
   {
     slug: "smoked-honey-duck-with-fermented-plum",
     title: "Smoked Honey Duck with Fermented Plum",
@@ -491,7 +503,10 @@ export const recipes: Recipe[] = [
     shopGear: [],
   },
   ...festiveRecipes,
+  ...catalogRecipes,
 ];
+
+export const recipes: Recipe[] = dedupeBySlug(recipesRaw);
 
 export function getRecipe(slug: string): Recipe | undefined {
   return recipes.find((r) => r.slug === slug);
@@ -527,4 +542,27 @@ export function formatQty(n: number): string {
   if (n === 0.75) return "¾";
   if (Math.abs(n - Math.round(n)) < 0.01) return String(Math.round(n));
   return String(Math.round(n * 100) / 100);
+}
+
+export function searchRecipes(list: Recipe[], query: string): Recipe[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return list;
+  const tokens = q.split(/\s+/).filter(Boolean);
+  return list.filter((r) => {
+    const hay = [
+      r.title,
+      r.shortTitle ?? "",
+      r.excerpt,
+      r.caption ?? "",
+      ...r.badges,
+      ...r.countries,
+      ...r.types,
+      ...r.continents,
+      ...r.dietOccasion,
+      ...r.ingredientGroups.flatMap((g) => g.items.map((i) => i.text)),
+    ]
+      .join(" ")
+      .toLowerCase();
+    return tokens.every((t) => hay.includes(t));
+  });
 }

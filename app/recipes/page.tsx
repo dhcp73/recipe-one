@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { RecipeFilterGrid } from "@/components/RecipeFilterGrid";
 import { recipes } from "@/data/recipes";
 import { JsonLd } from "@/lib/seo/JsonLd";
@@ -31,7 +32,9 @@ export default function RecipesPage() {
       />
       <h1>Recipes</h1>
       <p className="page-sub">{DESCRIPTION}</p>
-      <RecipeFilterGrid recipes={recipes} />
+      <Suspense fallback={<p className="page-sub">Loading recipes…</p>}>
+        <RecipeFilterGrid recipes={recipes} />
+      </Suspense>
     </main>
   );
 }
