@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { recipes } from "@/data/recipes";
+import { seasons } from "@/data/seasons";
 import { getPillarSlugs, pillars, SITE_URL } from "@/data/taxonomy";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/chef",
     "/about",
     "/categories",
+    "/seasons",
   ].map((path) => ({
     url: `${base}${path || "/"}`,
     lastModified: now,
@@ -45,5 +47,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...staticRoutes, ...recipeRoutes, ...categoryRoutes];
+
+  const seasonRoutes: MetadataRoute.Sitemap = [
+    ...seasons.map((s) => ({
+      url: `${base}/seasons/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticRoutes, ...recipeRoutes, ...categoryRoutes, ...seasonRoutes];
 }

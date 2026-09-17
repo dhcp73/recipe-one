@@ -1532,12 +1532,49 @@ h2 {
   grid-template-columns: 36px 1fr;
   gap: 12px;
 }
-.step-n { font-weight: 700; font-size: 15px; color: #0F6B5C; padding-top: 2px; }
-.step-n::before { content: counter(step); }
+.step-n {
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  background: #0F6B5C;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  margin-top: 2px;
+}
 .step-body h4 { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #121212; }
 .step-body p { font-size: 15px; color: #121212; margin-bottom: 8px; }
 .tip { font-size: 14px; color: #5C5C5C; margin: 0; }
 .tip strong { font-weight: 600; color: #5C5C5C; }
+.visual-cue {
+  font-size: 14px;
+  color: #0F6B5C;
+  margin: 0 0 8px;
+  padding: 8px 12px;
+  background: #F3FAF8;
+  border: 1px solid #D4EDE6;
+  border-radius: 8px;
+}
+.visual-cue strong { font-weight: 600; color: #0A5247; }
+.step-media {
+  margin: 0 0 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #D4EDE6;
+  background: #F3FAF8;
+  aspect-ratio: 4 / 3;
+  max-width: 100%;
+}
+.step-media-el {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .equipment { margin-top: 28px; padding-top: 24px; border-top: 1px solid #E8E8E8; }
 .equipment h3 { margin-bottom: 8px; }
 .equipment-intro { font-size: 14px; color: #5C5C5C; margin-bottom: 12px; }
@@ -2522,4 +2559,109 @@ h2 {
 
 @media (max-width: 480px) {
   .cat-browse-grid { grid-template-columns: 1fr; }
+}
+
+/* Season hubs + recipe reading polish */
+.season-kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0F6B5C;
+  margin: 0 0 6px;
+}
+.season-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 28px;
+}
+.season-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid #D4EDE6;
+  background: #F3FAF8;
+  color: #0A5247;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+.season-chip:hover { border-color: #0F6B5C; color: #0F6B5C; }
+.season-chip.is-active {
+  background: #0F6B5C;
+  border-color: #0F6B5C;
+  color: #fff;
+}
+.season-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.season-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #F3FAF8;
+  border: 1px solid #D4EDE6;
+  color: #0A5247;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.season-badge:hover { background: #0F6B5C; border-color: #0F6B5C; color: #fff; }
+.recipe-tools .jump-inline {
+  background: #0F6B5C;
+  color: #fff !important;
+  border-color: #0F6B5C;
+}
+.recipe-tools .jump-inline:hover {
+  background: #0A5247;
+  border-color: #0A5247;
+  color: #fff !important;
+}
+.recipe-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px 28px;
+}
+.recipe-ingredients-col h3,
+.recipe-directions-col .directions-h {
+  margin-top: 0 !important;
+}
+.ingredients-sticky { padding-bottom: 8px; }
+@media (min-width: 900px) {
+  .recipe-split {
+    grid-template-columns: minmax(240px, 0.95fr) minmax(0, 1.35fr);
+    align-items: start;
+    gap: 12px 32px;
+  }
+  .ingredients-sticky {
+    position: sticky;
+    top: 88px;
+    max-height: calc(100vh - 110px);
+    overflow: auto;
+    padding-right: 8px;
+    border-right: 1px solid #E8E8E8;
+    padding-bottom: 16px;
+  }
+  .directions-h { margin-top: 0 !important; }
+}
+.steps > li {
+  counter-increment: step;
+  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 14px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #F0F0F0;
+}
+.steps > li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }

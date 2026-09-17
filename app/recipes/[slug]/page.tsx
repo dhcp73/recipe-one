@@ -8,6 +8,7 @@ import {
   getAllRecipeSlugs,
   getRecipe,
 } from "@/data/recipes";
+import { getRecipeSeasonTags } from "@/data/seasons";
 import { JsonLd } from "@/lib/seo/JsonLd";
 import {
   breadcrumbJsonLd,
@@ -53,9 +54,10 @@ export default async function RecipePage({ params }: Props) {
   });
 
   const crumbs = recipeBreadcrumbItems(recipe);
+  const seasonTags = getRecipeSeasonTags(recipe.dietOccasion);
 
   return (
-    <main className="wrap">
+    <main className="wrap recipe-page">
       <JsonLd
         data={webPageJsonLd({
           title: recipe.title,
@@ -81,6 +83,21 @@ export default async function RecipePage({ params }: Props) {
           );
         })}
       </p>
+
+      {seasonTags.length ? (
+        <div className="season-badge-row" aria-label="Seasons">
+          {seasonTags.map((season) => (
+            <Link
+              key={season.slug}
+              className="season-badge"
+              href={`/seasons/${season.slug}`}
+            >
+              {season.shortLabel}
+            </Link>
+          ))}
+        </div>
+      ) : null}
+
       <h1>{recipe.title}</h1>
       <div className="byline-row">
         <span>
@@ -93,26 +110,17 @@ export default async function RecipePage({ params }: Props) {
       </div>
 
       <div className="recipe-tools">
+        <a className="util-btn jump-inline" href="#recipe">
+          Jump to recipe
+        </a>
         <button type="button" className="util-btn cook-mode">
           Cook Mode
         </button>
         <button type="button" className="util-btn">
-          Add to shopping list
-        </button>
-        <button type="button" className="util-btn">
           Print
-        </button>
-        <button type="button" className="util-btn">
-          Save
         </button>
         <Link className="util-btn" href="/chef">
           Ask Chef AI
-        </Link>
-      </div>
-
-      <div className="ai-tools" aria-label="AI tools">
-        <Link className="ai-btn" href="/chef">
-          Ask AI about this recipe
         </Link>
       </div>
 
@@ -170,55 +178,121 @@ export default async function RecipePage({ params }: Props) {
           <Link href="/chef">Ask Chef AI</Link>
         </div>
 
-        <h3>Ingredients</h3>
-        {recipe.ingredientGroups.map((group) => (
-          <div key={group.label}>
-            <p className="group-label">{group.label}</p>
-            <ul className="ingredients">
-              {group.items.map((item) => (
-                <li key={item.id}>
-                  <input type="checkbox" id={item.id} />
-                  <label htmlFor={item.id}>
-                    {item.qty != null ? (
-                      <span className="qty">{formatQty(item.qty)} </span>
-                    ) : null}
-                    {item.text}
-                  </label>
-                </li>
+        <div className="recipe-split">
+          <aside className="recipe-ingredients-col">
+            <div className="ingredients-sticky">
+              <h3>Ingredients</h3>
+              {recipe.ingredientGroups.map((group) => (
+                <div key={group.label}>
+                  <p className="group-label">{group.label}</p>
+                  <ul className="ingredients">
+                    {group.items.map((item) => (
+                      <li key={item.id}>
+                        <input type="checkbox" id={item.id} />
+                        <label htmlFor={item.id}>
+                          {item.qty != null ? (
+                            <span className="qty">{formatQty(item.qty)} </span>
+                          ) : null}
+                          {item.text}
+                        </label>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
-          </div>
-        ))}
+            </div>
+          </aside>
 
-        <h3 className="directions-h">Directions</h3>
-        <ol className="steps">
-          {recipe.steps.map((step, i) => (
-            <li key={step.title}>
-              <span className="step-n">{i + 1}</span>
-              <div className="step-body">
-                <h4>{step.title}</h4>
-                <p>{step.body}</p>
-                {step.tip ? (
-                  <p className="tip">
-                    <strong>Tip:</strong> {step.tip}
-                  </p>
-                ) : null}
+          <div className="recipe-directions-col">
+            <h3 className="directions-h">Directions</h3>
+            <ol className="steps">
+              {recipe.steps.map((step, i) => {
+                const mediaVideo = step.videoUrl;
+                const mediaGif = !mediaVideo ? step.gifUrl : undefined;
+                const mediaImage =
+                  !mediaVideo && !mediaGif ? step.image : undefined;
+                const hasMedia = Boolean(mediaVideo || mediaGif || mediaImage);
+
+                return (
+                  <li key={step.title}>
+                    <span className="step-n" aria-hidden="true">
+                      {i + 1}
+                    </span>
+                    <div className="step-body">
+                      <h4>
+                        <span className="sr-only">Step {i + 1}. </span>
+                        {step.title}
+                      </h4>
+                      {hasMedia ? (
+                        <div className="step-media">
+                          {mediaVideo ? (
+                            <video
+                              className="step-media-el"
+                              src={mediaVideo}
+                              muted
+                              playsInline
+                              loop
+                              autoPlay
+                              preload={i === 0 ? "metadata" : "none"}
+                              aria-label={
+                                step.imageAlt ?? `${step.title} demonstration`
+                              }
+                            />
+                          ) : null}
+                          {mediaGif ? (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              className="step-media-el"
+                              src={mediaGif}
+                              alt={
+                                step.imageAlt ?? `${step.title} demonstration`
+                              }
+                              loading={i === 0 ? "eager" : "lazy"}
+                            />
+                          ) : null}
+                          {mediaImage ? (
+                            <Image
+                              className="step-media-el"
+                              src={mediaImage}
+                              alt={step.imageAlt ?? step.title}
+                              width={800}
+                              height={600}
+                              sizes="(max-width: 720px) 100vw, 640px"
+                              loading={i === 0 ? "eager" : "lazy"}
+                            />
+                          ) : null}
+                        </div>
+                      ) : null}
+                      <p>{step.body}</p>
+                      {step.visualCue ? (
+                        <p className="visual-cue">
+                          <strong>Look for:</strong> {step.visualCue}
+                        </p>
+                      ) : null}
+                      {step.tip ? (
+                        <p className="tip">
+                          <strong>Tip:</strong> {step.tip}
+                        </p>
+                      ) : null}
+                    </div>
+                  </li>
+                );
+              })}
+            </ol>
+
+            {recipe.equipment.length ? (
+              <div className="equipment">
+                <h3>Special equipment</h3>
+                <p className="equipment-intro">Useful, not mandatory.</p>
+                <ul>
+                  {recipe.equipment.map((e) => (
+                    <li key={e}>{e}</li>
+                  ))}
+                </ul>
               </div>
-            </li>
-          ))}
-        </ol>
-
-        {recipe.equipment.length ? (
-          <div className="equipment">
-            <h3>Special equipment</h3>
-            <p className="equipment-intro">Useful, not mandatory.</p>
-            <ul>
-              {recipe.equipment.map((e) => (
-                <li key={e}>{e}</li>
-              ))}
-            </ul>
+            ) : null}
           </div>
-        ) : null}
+        </div>
       </section>
 
       {recipe.shopGear.length ? (

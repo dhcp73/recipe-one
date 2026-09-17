@@ -125,6 +125,12 @@ export const pillars: Pillar[] = [
           { slug: "weeknight", label: "Weeknight" },
           { slug: "weekend-project", label: "Weekend Project" },
           { slug: "holiday-table", label: "Holiday Table" },
+          { slug: "halloween", label: "Halloween" },
+          { slug: "bonfire-night", label: "Bonfire Night" },
+          { slug: "diwali", label: "Diwali" },
+          { slug: "thanksgiving", label: "Thanksgiving" },
+          { slug: "friendsgiving", label: "Friendsgiving" },
+          { slug: "christmas", label: "Christmas" },
         ],
       },
     ],
@@ -155,9 +161,9 @@ export const popularChips = [
   { label: "Breakfast", href: "/categories/type/breakfast" },
   { label: "Vegan", href: "/categories/diet-occasion/vegan" },
   { label: "India", href: "/categories/country/india" },
-  { label: "Summer", href: "/categories/diet-occasion/summer" },
-  { label: "For kids", href: "/categories/diet-occasion/for-kids" },
-  { label: "Festivals", href: "/categories/diet-occasion/festivals" },
+  { label: "Halloween", href: "/seasons/halloween" },
+  { label: "Diwali", href: "/seasons/diwali" },
+  { label: "Christmas", href: "/seasons/christmas" },
 ];
 
 export const countryMegaGroups = [

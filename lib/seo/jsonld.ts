@@ -240,13 +240,18 @@ export function recipeJsonLd(recipe: Recipe): JsonLdObject {
     recipeYield: `${recipe.servings} serving${recipe.servings === 1 ? "" : "s"}`,
     recipeIngredient: flattenIngredients(recipe),
     recipeInstructions: recipe.steps.map((step, index) => {
-      const text = step.tip ? `${step.body} Tip: ${step.tip}` : step.body;
-      return {
+      const parts = [step.body];
+      if (step.visualCue) parts.push(`Look for: ${step.visualCue}`);
+      if (step.tip) parts.push(`Tip: ${step.tip}`);
+      const text = parts.join(" ");
+      const howToStep: Record<string, unknown> = {
         "@type": "HowToStep",
         position: index + 1,
         name: step.title,
         text,
       };
+      if (step.image) howToStep.image = step.image;
+      return howToStep;
     }),
   };
 

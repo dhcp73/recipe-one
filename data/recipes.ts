@@ -1,3 +1,5 @@
+import { festiveRecipes } from "./festive-recipes";
+
 export type Ingredient = {
   id: string;
   qty?: number;
@@ -13,6 +15,16 @@ export type RecipeStep = {
   title: string;
   body: string;
   tip?: string;
+  /** Short sensory checkpoint: what success looks/smells/sounds like. */
+  visualCue?: string;
+  /** Optional still for this step (WebP/JPEG URL or public path). */
+  image?: string;
+  /** Alt text when `image` is set. */
+  imageAlt?: string;
+  /** Optional short muted MP4/WebM loop (preferred over GIF). */
+  videoUrl?: string;
+  /** Optional GIF when video is unavailable. */
+  gifUrl?: string;
 };
 
 export type Recipe = {
@@ -478,6 +490,7 @@ export const recipes: Recipe[] = [
     equipment: ["Small saucepan"],
     shopGear: [],
   },
+  ...festiveRecipes,
 ];
 
 export function getRecipe(slug: string): Recipe | undefined {
@@ -500,6 +513,12 @@ export function getRecipesByCategory(pillar: string, slug: string): Recipe[] {
     if (pillar === "diet-occasion") return r.dietOccasion.includes(slug);
     return false;
   });
+}
+
+
+export function getRecipesBySeasonTags(tags: string[]): Recipe[] {
+  const set = new Set(tags);
+  return recipes.filter((r) => r.dietOccasion.some((t) => set.has(t)));
 }
 
 export function formatQty(n: number): string {

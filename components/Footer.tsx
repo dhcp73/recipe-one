@@ -27,6 +27,7 @@ export function Footer() {
           <Link href="/categories/country">Country</Link>
           <Link href="/categories/type">Food type</Link>
           <Link href="/categories/diet-occasion">Diet &amp; occasion</Link>
+          <Link href="/seasons">Seasons</Link>
         </div>
         <div className="footer-col">
           <h4>Popular</h4>
@@ -34,8 +35,9 @@ export function Footer() {
           <Link href="/categories/country/italy">Italy</Link>
           <Link href="/categories/diet-occasion/vegan">Vegan</Link>
           <Link href="/categories/type/breakfast">Breakfast</Link>
-          <Link href="/categories/diet-occasion/summer">Summer</Link>
-          <Link href="/categories/diet-occasion/for-kids">For kids</Link>
+          <Link href="/seasons/halloween">Halloween</Link>
+          <Link href="/seasons/diwali">Diwali</Link>
+          <Link href="/seasons/christmas">Christmas</Link>
         </div>
         <div className="footer-col footer-news">
           <h4>Newsletter</h4>
