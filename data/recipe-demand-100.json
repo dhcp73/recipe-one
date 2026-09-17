@@ -1,0 +1,1717 @@
+[
+  {
+    "n": 1,
+    "title": "Teal-Pan Pumpkin Spice Loaf with Maple Crackle Top",
+    "slug": "teal-pan-pumpkin-spice-loaf-maple-crackle",
+    "keyword": "pumpkin bread recipe",
+    "theme": "autumn-pumpkin",
+    "types": [
+      "breads-baking",
+      "dessert"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 2,
+    "title": "Sheet-Pan Caramel Apple Dumplings (No Lattice Stress)",
+    "slug": "sheet-pan-caramel-apple-dumplings",
+    "keyword": "caramel apple dumplings",
+    "theme": "autumn-apple",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 3,
+    "title": "Beginner Butternut Squash Soup with Toasted Seed Oil",
+    "slug": "beginner-butternut-squash-soup-seed-oil",
+    "keyword": "squash soup",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegan",
+      "gluten-free",
+      "weeknight"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 4,
+    "title": "One-Pot Apple Cider Chicken Thighs with Soft Onions",
+    "slug": "one-pot-apple-cider-chicken-thighs",
+    "keyword": "apple cider chicken",
+    "theme": "autumn-apple",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "high-protein",
+      "weeknight"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 5,
+    "title": "Homemade Pumpkin Spice Latte Syrup (Stovetop, No Espresso Machine)",
+    "slug": "homemade-pumpkin-spice-latte-syrup",
+    "keyword": "homemade pumpkin spice latte",
+    "theme": "autumn-pumpkin",
+    "types": [
+      "drinks",
+      "sauces"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "meal-prep"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 6,
+    "title": "Candy Corn Blondies with Salty Brown-Butter Edges",
+    "slug": "candy-corn-blondies-brown-butter",
+    "keyword": "candy corn blondies",
+    "theme": "halloween",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 7,
+    "title": "Soft Pretzel Bites with Beer Cheese Dip (Weeknight Oktoberfest)",
+    "slug": "soft-pretzel-bites-beer-cheese-dip",
+    "keyword": "pretzel bites beer cheese",
+    "theme": "oktoberfest-game-day",
+    "types": [
+      "snacks",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "festivals"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 8,
+    "title": "Roasted Garlic White Bean Stew with Crispy Kale Chips",
+    "slug": "roasted-garlic-white-bean-stew-kale",
+    "keyword": "garlic white bean stew",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegan",
+      "weeknight"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 9,
+    "title": "Foolproof Dry-Brine Turkey Timeline (Beginner Calendar)",
+    "slug": "foolproof-dry-brine-turkey-timeline",
+    "keyword": "how to brine a turkey",
+    "theme": "thanksgiving",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "high-protein"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 10,
+    "title": "Make-Ahead Cranberry Sauce Three Ways (Classic, Spiced, Smoky)",
+    "slug": "make-ahead-cranberry-sauce-three-ways",
+    "keyword": "cranberry sauce recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "sides",
+      "sauces"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegan",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 11,
+    "title": "Besan Ladoo for Beginners (Color-Cue Roasting Guide)",
+    "slug": "besan-ladoo-beginners-color-cue",
+    "keyword": "besan ladoo recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 12,
+    "title": "No-Fail Coconut Barfi Squares (Condensed Milk Method)",
+    "slug": "no-fail-coconut-barfi-squares",
+    "keyword": "coconut barfi recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 13,
+    "title": "Spooky Black Cocoa Brownie Bites with Orange Zest Glow",
+    "slug": "spooky-black-cocoa-brownie-bites",
+    "keyword": "halloween brownies",
+    "theme": "halloween",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 14,
+    "title": "Caramel Apple Cider (Stovetop, Kid-Friendly Spiced)",
+    "slug": "caramel-apple-cider-stovetop",
+    "keyword": "caramel apple cider",
+    "theme": "autumn-apple",
+    "types": [
+      "drinks"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "for-kids",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 15,
+    "title": "Weeknight Pumpkin Curry with Coconut and Lime",
+    "slug": "weeknight-pumpkin-curry-coconut-lime",
+    "keyword": "pumpkin curry",
+    "theme": "autumn-pumpkin",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegan",
+      "weeknight",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 16,
+    "title": "Apple Salad with Sharp Cheddar, Pecans, and Maple Mustard",
+    "slug": "apple-salad-cheddar-pecans-maple-mustard",
+    "keyword": "apple salad recipe",
+    "theme": "autumn-apple",
+    "types": [
+      "salads",
+      "sides",
+      "lunch"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "weeknight"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 17,
+    "title": "Homemade Soft Caramels for Dunking Apples",
+    "slug": "homemade-soft-caramels-dunking-apples",
+    "keyword": "homemade caramel for apples",
+    "theme": "halloween",
+    "types": [
+      "dessert",
+      "snacks",
+      "sauces"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 18,
+    "title": "Mushroom Farro Stew with Herb Oil Swirl",
+    "slug": "mushroom-farro-stew-herb-oil",
+    "keyword": "mushroom stew recipe",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "weekend-project"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 19,
+    "title": "Pumpkin Shortcake with Whipped Maple Cream",
+    "slug": "pumpkin-shortcake-whipped-maple-cream",
+    "keyword": "pumpkin shortcake",
+    "theme": "autumn-pumpkin",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 20,
+    "title": "Sheet-Pan Sausage and Apples with Mustard Pan Sauce",
+    "slug": "sheet-pan-sausage-apples-mustard",
+    "keyword": "sausage and apples recipe",
+    "theme": "autumn-apple",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "weeknight",
+      "high-protein"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 21,
+    "title": "Boo Basket Snack Mix (Sweet-Salty Popcorn Clusters)",
+    "slug": "boo-basket-snack-mix-popcorn",
+    "keyword": "boo basket snack ideas",
+    "theme": "halloween",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 22,
+    "title": "Slow-Roasted Tomato Soup with Grilled Cheese Croutons",
+    "slug": "slow-roasted-tomato-soup-grilled-cheese-croutons",
+    "keyword": "tomato soup grilled cheese",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "lunch",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 23,
+    "title": "Kaju Katli Diamonds (One-String Syrup Walkthrough)",
+    "slug": "kaju-katli-diamonds-one-string-syrup",
+    "keyword": "kaju katli recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 24,
+    "title": "Make-Ahead Stuffing Cubes (Dry Overnight Method)",
+    "slug": "make-ahead-stuffing-cubes-dry-overnight",
+    "keyword": "thanksgiving stuffing recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "sides",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 25,
+    "title": "Green Bean Casserole from Scratch (No Condensed Soup)",
+    "slug": "green-bean-casserole-from-scratch",
+    "keyword": "green bean casserole recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 26,
+    "title": "Spatchcock Turkey for Small Ovens (Thermometer Map)",
+    "slug": "spatchcock-turkey-small-ovens",
+    "keyword": "spatchcock turkey",
+    "theme": "thanksgiving",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "high-protein"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 27,
+    "title": "Cinnamon Apple Overnight Oats (Jar Meal Prep)",
+    "slug": "cinnamon-apple-overnight-oats",
+    "keyword": "apple cinnamon overnight oats",
+    "theme": "autumn-apple",
+    "types": [
+      "breakfast",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian",
+      "meal-prep",
+      "weeknight"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 28,
+    "title": "Pumpkin Bars with Cream Cheese Swirl (One Pan)",
+    "slug": "pumpkin-bars-cream-cheese-swirl",
+    "keyword": "pumpkin bars recipe",
+    "theme": "autumn-pumpkin",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 29,
+    "title": "Friendsgiving Dip Board with Roasted Squash Hummus",
+    "slug": "friendsgiving-dip-board-squash-hummus",
+    "keyword": "friendsgiving appetizers",
+    "theme": "thanksgiving",
+    "types": [
+      "snacks",
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegan",
+      "vegetarian"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 30,
+    "title": "Milk Powder Barfi (25-Minute Diwali Gift Box)",
+    "slug": "milk-powder-barfi-25-minute",
+    "keyword": "milk powder barfi",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P0"
+  },
+  {
+    "n": 31,
+    "title": "Homemade Halloween Candy Bark (Leftover Candy Remix)",
+    "slug": "homemade-halloween-candy-bark",
+    "keyword": "halloween candy bark",
+    "theme": "halloween",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 32,
+    "title": "Jack-o\u2019-Lantern Stuffed Peppers (Mild Chili Filling)",
+    "slug": "jack-o-lantern-stuffed-peppers",
+    "keyword": "halloween dinner ideas",
+    "theme": "halloween",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 33,
+    "title": "Witch\u2019s Brew Mulled Cider with Star Anise",
+    "slug": "witchs-brew-mulled-cider",
+    "keyword": "mulled cider recipe",
+    "theme": "halloween",
+    "types": [
+      "drinks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "vegan"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 34,
+    "title": "Pumpkin Carving Party Snack Board",
+    "slug": "pumpkin-carving-party-snack-board",
+    "keyword": "pumpkin carving party food",
+    "theme": "halloween",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "autumn",
+      "for-kids",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 35,
+    "title": "Sweet Potato Casserole with Pecan Streusel (Not Too Sweet)",
+    "slug": "sweet-potato-casserole-pecan-streusel",
+    "keyword": "sweet potato casserole",
+    "theme": "thanksgiving",
+    "types": [
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 36,
+    "title": "Corn Casserole with Fresh Corn and Sharp Cheddar",
+    "slug": "corn-casserole-fresh-cheddar",
+    "keyword": "corn casserole recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 37,
+    "title": "Pecan Pie with Blind-Bake Crust Insurance",
+    "slug": "pecan-pie-blind-bake-insurance",
+    "keyword": "pecan pie recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 38,
+    "title": "Classic Pumpkin Pie with Evaporated Milk Clarity",
+    "slug": "classic-pumpkin-pie-evaporated-milk",
+    "keyword": "pumpkin pie recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 39,
+    "title": "Turkey Gravy from Drippings (Lump-Free Whisk Method)",
+    "slug": "turkey-gravy-from-drippings-lump-free",
+    "keyword": "how to make turkey gravy",
+    "theme": "thanksgiving",
+    "types": [
+      "sauces",
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 40,
+    "title": "Oven-Roasted Turkey Breast for Two (No Whole Bird)",
+    "slug": "oven-roasted-turkey-breast-for-two",
+    "keyword": "turkey breast roast recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "for-two",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 41,
+    "title": "Brussels Sprouts with Bacon and Apple Cider Glaze",
+    "slug": "brussels-sprouts-bacon-apple-cider",
+    "keyword": "brussels sprouts recipe thanksgiving",
+    "theme": "thanksgiving",
+    "types": [
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 42,
+    "title": "Deviled Eggs Three Fillings for the Holiday Platter",
+    "slug": "deviled-eggs-three-fillings-holiday",
+    "keyword": "deviled eggs recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "snacks",
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "gluten-free",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 43,
+    "title": "Make-Ahead Mashed Potatoes (Reheat Without Glue)",
+    "slug": "make-ahead-mashed-potatoes-reheat",
+    "keyword": "make ahead mashed potatoes",
+    "theme": "thanksgiving",
+    "types": [
+      "sides"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 44,
+    "title": "Rava Coconut Ladoo (Quick Festival Sweet)",
+    "slug": "rava-coconut-ladoo-quick",
+    "keyword": "coconut ladoo recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 45,
+    "title": "Date and Fig Anjeer Barfi (No Refined Sugar)",
+    "slug": "date-fig-anjeer-barfi",
+    "keyword": "anjeer barfi recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegan",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 46,
+    "title": "Gulab Jamun from Milk Powder (Oil Temp Ladder)",
+    "slug": "gulab-jamun-milk-powder-oil-temp",
+    "keyword": "gulab jamun recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 47,
+    "title": "Smoked Turkey Method for Backyard Grills",
+    "slug": "smoked-turkey-backyard-grills",
+    "keyword": "how to smoke a turkey",
+    "theme": "thanksgiving",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "weekend-project",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 48,
+    "title": "Apple Pie with Cheddar Crust Edges",
+    "slug": "apple-pie-cheddar-crust-edges",
+    "keyword": "apple pie recipe",
+    "theme": "thanksgiving",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 49,
+    "title": "Chocolate Pudding Pie for Non-Traditional Thanksgiving",
+    "slug": "chocolate-pudding-pie-thanksgiving",
+    "keyword": "chocolate pudding pie",
+    "theme": "thanksgiving",
+    "types": [
+      "dessert"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 50,
+    "title": "Asian-Inspired Ginger-Scallion Turkey Roast",
+    "slug": "ginger-scallion-turkey-roast",
+    "keyword": "asian turkey thanksgiving",
+    "theme": "thanksgiving",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 51,
+    "title": "Peanut Butter Blossoms with Perfect Kiss Dimple Timing",
+    "slug": "peanut-butter-blossoms-kiss-dimple",
+    "keyword": "peanut butter blossoms",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 52,
+    "title": "No-Bake Peanut Butter Balls (Buckeye Style)",
+    "slug": "no-bake-peanut-butter-balls-buckeye",
+    "keyword": "peanut butter balls recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 53,
+    "title": "Spritz Cookies with Press Troubleshooting Guide",
+    "slug": "spritz-cookies-press-troubleshooting",
+    "keyword": "spritz cookies recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 54,
+    "title": "Hot Cocoa Cookies with Marshmallow Centers",
+    "slug": "hot-cocoa-cookies-marshmallow-centers",
+    "keyword": "hot cocoa cookie recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 55,
+    "title": "Short Rib Stew with Red Wine and Root Vegetables",
+    "slug": "short-rib-stew-red-wine-roots",
+    "keyword": "short rib stew",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "dinner",
+      "mains"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "weekend-project",
+      "high-protein"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 56,
+    "title": "Creamy Potato Leek Soup (Immersion Blender Safe)",
+    "slug": "creamy-potato-leek-soup-blender-safe",
+    "keyword": "potato leek soup",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "lunch",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "vegetarian",
+      "weeknight"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 57,
+    "title": "Game Day Buffalo Chicken Dip (Slow Cooker)",
+    "slug": "game-day-buffalo-chicken-dip-slow-cooker",
+    "keyword": "buffalo chicken dip",
+    "theme": "game-day",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein",
+      "weeknight"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 58,
+    "title": "Hawaiian Roll Turkey Sliders with Cranberry Dijon",
+    "slug": "hawaiian-roll-turkey-sliders-cranberry",
+    "keyword": "turkey sliders recipe",
+    "theme": "game-day",
+    "types": [
+      "snacks",
+      "lunch",
+      "mains"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 59,
+    "title": "Sheet-Pan Nachos with Chipotle Turkey",
+    "slug": "sheet-pan-nachos-chipotle-turkey",
+    "keyword": "turkey nachos",
+    "theme": "game-day",
+    "types": [
+      "snacks",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein",
+      "weeknight"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 60,
+    "title": "Chili Con Carne for a Crowd (Two-Heat Levels)",
+    "slug": "chili-con-carne-crowd-two-heat",
+    "keyword": "chili recipe for a crowd",
+    "theme": "game-day",
+    "types": [
+      "soups-stews",
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein",
+      "meal-prep"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 61,
+    "title": "Gingerbread Cutouts with Royal Icing for Beginners",
+    "slug": "gingerbread-cutouts-royal-icing-beginners",
+    "keyword": "gingerbread cookies recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 62,
+    "title": "Charcuterie Gingerbread House (Savory Build)",
+    "slug": "charcuterie-gingerbread-house-savory",
+    "keyword": "charcuterie gingerbread house",
+    "theme": "christmas-baking",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 63,
+    "title": "Yule Log Cake (B\u00fbche) Roll Without Cracks",
+    "slug": "yule-log-cake-roll-without-cracks",
+    "keyword": "yule log recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "weekend-project"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 64,
+    "title": "Poinsettia Cocktail (Prosecco Cranberry)",
+    "slug": "poinsettia-cocktail-prosecco-cranberry",
+    "keyword": "poinsettia cocktail",
+    "theme": "christmas-baking",
+    "types": [
+      "drinks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 65,
+    "title": "Hanukkah Latkes with Applesauce and Sour Cream",
+    "slug": "hanukkah-latkes-applesauce-sour-cream",
+    "keyword": "latkes recipe",
+    "theme": "hanukkah",
+    "types": [
+      "sides",
+      "snacks",
+      "breakfast"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 66,
+    "title": "Sufganiyot Jelly Doughnuts (Oil Temp for Soft Centers)",
+    "slug": "sufganiyot-jelly-doughnuts",
+    "keyword": "sufganiyot recipe",
+    "theme": "hanukkah",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 67,
+    "title": "Braised Cabbage with Apple and Caraway (Golumpki-Adjacent)",
+    "slug": "braised-cabbage-apple-caraway",
+    "keyword": "braised cabbage recipe",
+    "theme": "autumn-cabbage",
+    "types": [
+      "sides",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "vegan",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 68,
+    "title": "Cabbage Dumplings in Brothy Ginger Sauce",
+    "slug": "cabbage-dumplings-ginger-broth",
+    "keyword": "cabbage dumplings",
+    "theme": "autumn-cabbage",
+    "types": [
+      "mains",
+      "dinner",
+      "soups-stews"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 69,
+    "title": "Pickle Dip Board with Everything Bagel Chips",
+    "slug": "pickle-dip-board-everything-bagel",
+    "keyword": "pickle dip recipe",
+    "theme": "game-day",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 70,
+    "title": "Mysore Pak Soft Squares (Ghee Foam Stage Guide)",
+    "slug": "mysore-pak-soft-squares-ghee-foam",
+    "keyword": "mysore pak recipe",
+    "theme": "diwali",
+    "types": [
+      "dessert"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "priority": "P1"
+  },
+  {
+    "n": 71,
+    "title": "Leftover Turkey Carcass Pho-Style Broth Bowl",
+    "slug": "leftover-turkey-carcass-pho-style-broth",
+    "keyword": "leftover turkey soup",
+    "theme": "leftover-turkey",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein",
+      "weeknight"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 72,
+    "title": "Thanksgiving Leftover Crunchwrap (Gravy Mole Twist)",
+    "slug": "thanksgiving-leftover-crunchwrap",
+    "keyword": "thanksgiving leftover recipes",
+    "theme": "leftover-turkey",
+    "types": [
+      "lunch",
+      "dinner",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 73,
+    "title": "Turkey Tetrazzini Bake with Mushrooms and Peas",
+    "slug": "turkey-tetrazzini-bake-mushrooms-peas",
+    "keyword": "turkey tetrazzini",
+    "theme": "leftover-turkey",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 74,
+    "title": "Spicy Leftover Turkey Chili with Dark Chocolate",
+    "slug": "spicy-leftover-turkey-chili-chocolate",
+    "keyword": "leftover turkey chili",
+    "theme": "leftover-turkey",
+    "types": [
+      "soups-stews",
+      "mains"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein",
+      "meal-prep"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 75,
+    "title": "Turkey Fried Rice with Cranberry Sweet-Sour Splash",
+    "slug": "turkey-fried-rice-cranberry-splash",
+    "keyword": "turkey fried rice",
+    "theme": "leftover-turkey",
+    "types": [
+      "mains",
+      "dinner",
+      "lunch"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 76,
+    "title": "Day-After Turkey Waldorf Salad Lettuce Cups",
+    "slug": "day-after-turkey-waldorf-lettuce-cups",
+    "keyword": "turkey waldorf salad",
+    "theme": "leftover-turkey",
+    "types": [
+      "salads",
+      "lunch"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "gluten-free",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 77,
+    "title": "Buffalo Turkey Dip from Leftovers (Slow Cooker)",
+    "slug": "buffalo-turkey-dip-leftovers",
+    "keyword": "buffalo turkey dip",
+    "theme": "leftover-turkey",
+    "types": [
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 78,
+    "title": "Shepherd\u2019s Pie with Turkey and Leftover Mash Lid",
+    "slug": "shepherds-pie-turkey-leftover-mash",
+    "keyword": "turkey shepherd pie",
+    "theme": "leftover-turkey",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 79,
+    "title": "Sugar Cookie Cutouts with Flood Icing Map",
+    "slug": "sugar-cookie-cutouts-flood-icing-map",
+    "keyword": "sugar cookie recipe christmas",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 80,
+    "title": "Gingerbread House Assembly Weekend Project",
+    "slug": "gingerbread-house-assembly-weekend",
+    "keyword": "gingerbread house recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "weekend-project",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 81,
+    "title": "Snowball Cookies (Russian Tea Cakes) That Stay Round",
+    "slug": "snowball-cookies-stay-round",
+    "keyword": "snowball cookies recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 82,
+    "title": "Italian Christmas Cookies with Anise Glaze",
+    "slug": "italian-christmas-cookies-anise-glaze",
+    "keyword": "italian christmas cookies",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 83,
+    "title": "Peppermint Hot Chocolate from Scratch",
+    "slug": "peppermint-hot-chocolate-scratch",
+    "keyword": "peppermint hot chocolate",
+    "theme": "christmas-baking",
+    "types": [
+      "drinks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 84,
+    "title": "Eggnog Custard French Toast Bake",
+    "slug": "eggnog-custard-french-toast-bake",
+    "keyword": "eggnog french toast",
+    "theme": "christmas-baking",
+    "types": [
+      "breakfast",
+      "dessert"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 85,
+    "title": "Honey-Glazed Holiday Ham with Mustard Lacquer",
+    "slug": "honey-glazed-holiday-ham-mustard",
+    "keyword": "honey glazed ham recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 86,
+    "title": "Beef Wellington for Two (Puff Pastry Timeline)",
+    "slug": "beef-wellington-for-two-timeline",
+    "keyword": "beef wellington recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "weekend-project",
+      "for-two",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 87,
+    "title": "Cranberry Orange Scones for Holiday Breakfast",
+    "slug": "cranberry-orange-scones-holiday",
+    "keyword": "cranberry orange scones",
+    "theme": "christmas-baking",
+    "types": [
+      "breakfast",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 88,
+    "title": "Matzo Ball Soup for Hanukkah Weeknights",
+    "slug": "matzo-ball-soup-hanukkah-weeknights",
+    "keyword": "matzo ball soup recipe",
+    "theme": "hanukkah",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "for-elders"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 89,
+    "title": "Sufganiyot Mini Bites for a Party Tray",
+    "slug": "sufganiyot-mini-bites-party-tray",
+    "keyword": "mini sufganiyot",
+    "theme": "hanukkah",
+    "types": [
+      "dessert",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 90,
+    "title": "Brisket with Onion Gravy (Oven Low-and-Slow)",
+    "slug": "brisket-onion-gravy-oven-slow",
+    "keyword": "hanukkah brisket recipe",
+    "theme": "hanukkah",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "high-protein",
+      "weekend-project"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 91,
+    "title": "New Year\u2019s Eve Champagne Butter Cookies",
+    "slug": "nye-champagne-butter-cookies",
+    "keyword": "new years eve cookies",
+    "theme": "new-years",
+    "types": [
+      "dessert",
+      "breads-baking",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 92,
+    "title": "Midnight Black-Eyed Pea Stew (Lucky New Year)",
+    "slug": "midnight-black-eyed-pea-stew",
+    "keyword": "black eyed pea recipe new year",
+    "theme": "new-years",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "vegan",
+      "gluten-free"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 93,
+    "title": "Mulled Wine with Orange and Clove (Party Pot)",
+    "slug": "mulled-wine-orange-clove",
+    "keyword": "mulled wine recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "drinks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 94,
+    "title": "Roast Duck with Cherry Port Sauce (Holiday Main)",
+    "slug": "roast-duck-cherry-port-sauce",
+    "keyword": "roast duck recipe christmas",
+    "theme": "christmas-baking",
+    "types": [
+      "mains",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "weekend-project",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 95,
+    "title": "Sticky Toffee Pudding with Warm Butterscotch",
+    "slug": "sticky-toffee-pudding-butterscotch",
+    "keyword": "sticky toffee pudding",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert"
+    ],
+    "dietOccasion": [
+      "holiday-table",
+      "festivals",
+      "vegetarian",
+      "winter"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 96,
+    "title": "Mincemeat Hand Pies (Store-Bought Crust Friendly)",
+    "slug": "mincemeat-hand-pies-store-crust",
+    "keyword": "mincemeat pie recipe",
+    "theme": "christmas-baking",
+    "types": [
+      "dessert",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 97,
+    "title": "Winter Squash Risotto with Sage Brown Butter",
+    "slug": "winter-squash-risotto-sage-brown-butter",
+    "keyword": "butternut squash risotto",
+    "theme": "cozy-soups",
+    "types": [
+      "mains",
+      "dinner",
+      "sides"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "vegetarian",
+      "weekend-project"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 98,
+    "title": "Lentil Sausage Stew for Cold Weeknights",
+    "slug": "lentil-sausage-stew-cold-weeknights",
+    "keyword": "lentil sausage stew",
+    "theme": "cozy-soups",
+    "types": [
+      "soups-stews",
+      "dinner"
+    ],
+    "dietOccasion": [
+      "autumn",
+      "winter",
+      "weeknight",
+      "high-protein"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 99,
+    "title": "Cinnamon Roll Wreath for Christmas Morning",
+    "slug": "cinnamon-roll-wreath-christmas-morning",
+    "keyword": "cinnamon roll wreath",
+    "theme": "christmas-baking",
+    "types": [
+      "breakfast",
+      "breads-baking"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "holiday-table",
+      "vegetarian",
+      "for-kids"
+    ],
+    "priority": "P2"
+  },
+  {
+    "n": 100,
+    "title": "Leftover Stuffing Waffles with Fried Egg",
+    "slug": "leftover-stuffing-waffles-fried-egg",
+    "keyword": "stuffing waffles",
+    "theme": "leftover-turkey",
+    "types": [
+      "breakfast",
+      "snacks"
+    ],
+    "dietOccasion": [
+      "festivals",
+      "weeknight",
+      "for-kids"
+    ],
+    "priority": "P2"
+  }
+]
